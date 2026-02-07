@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+
+    <input  id="nn">
+
+    <h1 id="cc3"></h1>
+
+    <h1 id="h1"> </h1>
+
+
+
+    <p id="p1">  </p>
+
+    <p id="k2">  </p>
+
+    <p id="p2"></p>
+    <h1 id="p4"></h1>
+    <h1 id="p5"></h1>
+    <h1 id="pp"></h1>
+
+    <button onclick="window.print()"> print page </button>
+
+
+    <button type="button" onclick="document.write('2026 @kaafiye ')">   click </button>
+
+
+    <input  id="n1">
+    <input id="n2">
+    <button onclick="myadd()"> add </button>
+    <h1> wadarta: <span id="r"></span></h1>
+
+    <h4 id="k1"> kaafiye ! </h4>
+    <button onclick="calaas()"> change </button>
+
+
+    <input id="nn1n">
+    <button onclick="show_tell()"> Tell </button>
+    <script>
+
+     for(let a=0; a < 10; a++){
+
+        document.write("number:" + a + "<br>");
+
+     }
+     
+
+
+
+
+
+        function calaas(){
+
+            let b = document.getElementById('k1').innerHTML;
+            document.getElementById('k1').innerHTML = b.replace("k",'cali')
+        }
+
+       let tt1 = "kaafiye";
+       let tt2 = "Xasan";
+       document.getElementById("pp").innerHTML =  tt1.concat(" ",tt2);
+
+       function myadd(){
+        let num1 = document.getElementById('n1').value;
+        let num2 = document.getElementById('n2').value;
+        let sum = Number(num1) +  Number(num2);
+
+        document.getElementById("r").innerHTML = sum;
+       }
+
+
+
+
+
+       // document.getElementById("p1").innerHTML = "ktc".length;
+       // document.getElementById("p1").innerHTML = "calas".charAt(0);
+        document.getElementById("p1").innerHTML = "calas".repeat(6);
+        document.getElementById("p2").innerHTML =  2+2;
+        document.write("Kamaal<br>");
+        document.write(4+4);
+        //alert("kaafiye");
+        console.log("kaafiye ktc ");
+
+        x = 9;
+        var  bb = 101;
+        let  b1 = 3883;
+        const  mm ='Kaafiye';
+        let m1="kaafiye";
+
+        let a = 2;
+        let b = 4;
+        let c = a+b;
+
+        let t1 = "calas";
+        let t2 = "kamaal";
+        let t3 = t1 + " " + t2;
+
+
+        document.getElementById("p4").innerHTML = c;
+        document.getElementById("p4").innerHTML = t1;
+
+
+
+
+
+function ktcm(a, b){
+return a+b;
+
+}
+
+let mmm = ktcm(7 ,7);
+document.getElementById("p5").innerHTML =  mmm;
+
+
+let k = ["kaafiye","calas","kamaal"];
+document.getElementById("h1").innerHTML = k.sort();
+
+let k1 = Date();
+document.getElementById("k2").innerHTML = k1;
+
+
+let kk1 = 6;
+
+if(kk1 == 1){
+    document.getElementById("cc3").innerHTML = "number 1";
+
+}
+
+
+let kaafiye = 11;
+
+
+if(kaafiye == 10){
+   // alert("kaafiye 1");
+}
+else{
+  //  alert("no number 10")
+}
+
+
+let  da =  'a';
+
+
+if(da == 15){
+   // alert("age 15");
+}else if(da < 15){
+   // alert("age < 15 ");
+
+}else if(da > 15 ){
+   /// alert("age > 15");
+}
+else{
+    alert("no age");
+    window.location.href = "kaafoiye.html";
+}
+
+
+
+
+
+var n=6;
+
+switch(n){
+    case 0:
+        t = "off";
+        break;
+
+    case 1:
+       t = "one";
+       break; 
+
+       default:
+        t =  "   ======= "
+}
+alert(t);
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

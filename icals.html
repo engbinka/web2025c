@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script src="jquery-3.7.1.min.js"></script>
+
+  <style>
+    #div{
+        width: 200px;
+        height: 100px;
+       display: none;   
+        background-color: blue;
+    }
+
+    #k1, #k2{
+        padding: 8;
+        text-align: center;
+        background-color: greenyellow;
+        border: solid 3px red;
+    }
+
+    #k2{
+        padding: 70px;
+        display: none;
+    }
+  </style>
+    
+</head>
+<body>
+
+    <!--
+  
+    <p> Xasan </p>
+
+    <h1>kafiye</h1>
+    <h1 id="h1">kafiye</h1>
+    <h1>kafiye</h1>
+    <div>ka;afiy</div>
+<button> hide </button>
+<br>
+<button id="b1"> hide 2 </button>
+   
+
+<input type="text">
+
+<br>
+<br>
+<br>
+  -->
+
+  <div id="k1"> dropdown </div>
+
+  <div id="k2"> kaafiye </div>
+ 
+
+
+  <button id="b1"> show </button>
+
+  <div>
+
+  </div>
+
+<hr>
+
+
+<button id="hide" style="background-color: red;  padding: 33px;"> hide </button>
+<button id="show" style="background-color: green; padding: 33px ;">show</button>
+
+
+<h5 id="calas" style="font-size: 77px; color: blue;">  kaafiye 2025 </h5>
+
+<hr>
+
+<button id="hide_show"> hide or show </button>
+<p>kaafiye</p>
+<p id="p">2025</p>
+<p>Xasan</p>
+
+
+<h1 id="rr">  kaafiye ktc </h1>
+<button id="bb1">  bb1  </button>
+
+<input type="text" id="in1">
+<button id="bb2">  bb2 </button>
+
+<button id="ap"> add </button>
+<p id="l1">  kaafiye </p>
+
+
+
+
+<button id="ap1">  add </button>
+
+<ul><li>KTC</li></ul>
+
+<p> kaafiye </p>
+<p>Xasan</p>
+<p>geedi</p>
+
+<button id="re"> remove </button>
+
+
+<script>
+       $(document).ready(function(){
+
+        $("#ap1").click(function(){
+          $("ul").append("<li> kaafiye </li>")
+
+        });
+
+        $("#re").click(function(){
+
+          $("p").remove();
+
+        });
+
+
+
+          
+     $("#ap").click(function(){
+
+    //  $("#l1").append("<br> <b> ktc </b>");
+        $("#l1").prepend("<br> <b>  xasan </b>")
+
+     });
+
+
+         $("#bb1").click(function(){
+           alert($("#rr").text());
+
+         });
+
+         $("#bb2").click(function(){
+            alert($("#in1").val());
+
+
+         });
+
+
+
+
+
+        $("#k1").click(function(){
+           // $("#k2").slideDown();
+            $("#k2").slideToggle();
+
+        });
+
+        $("#b1").click(function(){
+           // $("div").fadeIn();
+           //  $("div").fadeOut();
+            $("#div").fadeToggle(4000);
+
+        });
+
+        $("#hide_show").click(function(){
+            $("#p").toggle(3000);
+
+        });
+
+
+        $("#hide").click(function(){
+            $("#calas").hide(2000);
+
+        });
+
+      $("#show").click(function(){
+        $("#calas").show(3000);
+
+      });
+
+
+
+
+        $("#input").focus(function(){
+         $(this).hide();
+        });
+
+        $("#b1").click(function(){
+            $("#h1").hide();
+
+        });
+
+        /*
+ $("div").click(function(){
+    $(this).hide();
+ })
+
+ */
+
+ $("h3").dblclick(function(){
+    $(this).hide()
+
+ });
+
+ /*
+ $("h3").mouseenter(function(){
+    $(this).hide();
+
+
+ })
+    */
+    });
+
+    
+</script>
+
+    
+</body>
+</html>

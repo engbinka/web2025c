@@ -1,0 +1,55 @@
+#k1{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.c{
+    background-color: white;
+}
+
+h1{
+    color: red;
+    font-size: 100px;
+}
+
+/*
+#k1{
+    color: blanchedalmond;
+    background-color: black;
+}
+
+*/
+
+
+
+body{
+   /* background-color: rgb(140, 211, 207); */
+  /*  background-image: url("/img/ktcl2.jpg"); */
+   /*   background-size:  80px;  */
+  /* background-repeat: repeat-x;  */
+  /* background-repeat: repeat-y; */
+/*
+   background-repeat:  no-repeat; 
+   background-position-x:  50%;
+   background-position-y: 88px;
+   background-attachment:  fixed;
+
+   */
+
+  /* background: url("/img/ktcl2.jpg") no-repeat 66px 44%  fixed; */
+}
+
+#p1{
+ border-style:  solid;
+}
+
+#p2{
+    border-style: ridge;
+}
+
+#p3{
+    border-style: dashed;
+}
+#p4{
+    border-style: double;
+}
